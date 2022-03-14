@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data-form</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="first-div">
+      <p class="heading">Basic Details</p>
+      <p class="heading-para">If these details are not correct employears wont be able to contact you!</p>
+    </div>
+    <hr>
+    <div class="second-div">
+      <div class="img-data">
+        <div class="img">
+          <img src="./profile.jpg" alt="Profile img error">
+        </div>
+        <div class="data">
+          <input type="file" name="image" id="img"><br>
+          <input type="button" value="UPLOAD PHOTO" id="upload-img-btn" name="upload-btn">
+        </div>
+      </div>
+      <div class="form-data">
+        <form method="post">
+          <div class="name">
+            <div class="fname">
+              <label for="fname">First Name</label><br>
+              <input type="text" id="fname" name="fname">
+            </div>
+            <div class="lname">
+              <label for="lname">Last Name</label><br>
+              <input type="text" id="lname" name="lname">
+            </div>
+          </div>
+          <div class="profession">
+            <label for="prof">Profession</label><br>
+            <input type="text" id="prof" name="profession">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="third-div">
+     <form method="post">
+      <div class="grid-data">
+        <div class="div1">
+          <label for="city">City</label><br>
+          <input type="text" id="city" name="city">
+        </div>
+        <div class="div2">
+          <label for="state">State</label><br>
+          <input type="text" id="state" name="state">
+        </div>
+        <div class="div3">
+          <label for="zip">Zip</label><br>
+          <input type="text" id="zip" name="zip">
+        </div>
+      </div>
+     </form>
+    </div>
+    <div class="last-div">
+      <form method="post">
+        <div class="second-grid-data">
+          <div class="div1">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" name="email">
+          </div>
+          <div class="div2">
+            <label for="phone">Phone</label><br>
+            <input type="phone" name="phone" id="phone" name="phone">
+          </div>
+        </div>
+        <input type="button" value="Next" class="next-btn" name="next-btn">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
